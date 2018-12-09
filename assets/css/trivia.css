@@ -1,0 +1,67 @@
+body {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 10px;
+   font-weight: 2px;
+   text-align: center;
+   justify-content: center;
+   background-color: whitesmoke;
+}
+
+.row {
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+#header {
+    background-color: black;
+    color: white;
+}
+
+#timeLeft,  {
+    background-color: gray;
+    color: white;
+}
+
+
+#playButton, #submitButton {
+    box-shadow: 3px 3px 5px #888;
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: lightgrey;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    margin: auto;
+    padding-top: 0px;
+    font-size: 20px;
+}
+
+#quiz {
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#question1, #question2, #question3 {
+    font-size: 20px;
+    background-color: darkgray;
+    border-radius: 6px;
+    color: white;
+}
+
+input[type="radio"] {
+    vertical-align: auto;
+    justify-content: left; 
+  }
+
+
+/* .submitAll {
+    visibility: hidden;
+} */

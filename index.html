@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/trivia.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/trivia.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class= "row" id= "header">
+            <h1 class= "title">Trivial Trivia!</h1>
+    </div>
+    <div class="container">
+        <div class= "row" id= "header">
+            <h2 class= "title">Time Remaining: <span class= "timer"></span> seconds</h2>
+        </div>
+
+        <form id="quiz">
+            
+            <p id= "question1">1. What Michael Jackson video originally contained four minutes of the artist smashing a car while dancing?</p>
+                <input type= "radio" name= "group1" value= "wrong"> Remember the Time<br>
+                <input type= "radio" name= "group1"  value= "correct"> Black or White<br>
+                <input type= "radio" name= "group1"  value= "wrong"> Bad<br>
+                <input type= "radio" name= "group1"  value= "wrong"> Smooth Criminal<br>
+            <br>
+            <p id= "question2">2. Standing four feet tall, what species of penguin is the tallest?</p>
+                <input type= "radio" name= "group2" value= "wrong"> Rockhopper<br>
+                <input type= "radio" name= "group2"  value= "wrong"> Adelie<br>
+                <input type= "radio" name= "group2"  value= "correct"> Emperor<br>
+                <input type= "radio" name= "group2"  value= "wrong"> Macaroni<br>
+            <br> 
+            <p id= "question3">3. What game is considered the oldest board game in the world?</p>
+                <input type= "radio" name= "group3" value= "correct"> Go<br>
+                <input type= "radio" name= "group3"  value= "wrong"> Mah Jongg<br>
+                <input type= "radio" name= "group3"  value= "wrong"> Checkers<br>
+                <input type= "radio" name= "group3"  value= "wrong"> Chess<br>  
+            <br>
+
+
+            <div class="row">
+                <button class= "submit" id="submitButton">Submit</button>
+                <br>
+                <button class= "row" id="playButton">Play Again</button>
+                <br>
+            </div>
+
+        </form>
+
+        <div class="submitAll" id="header">
+            <h2 class="correctAnswers">Total Correct:<span class="totalCorrect"></span></h2>
+        </div>
+       
+    </div>
+    <!-- onclick="return handleClick();"  -->
+
+</body>
+</html>
